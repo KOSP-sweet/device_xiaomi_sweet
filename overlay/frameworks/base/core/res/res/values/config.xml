@@ -365,4 +365,7 @@
 
     <!--  Maximum number of supported users -->
     <integer name="config_multiuserMaximumUsers">5</integer>
+
+    <!-- If not zero, limits the internal screen recorder's framerate to the set value. -->
+    <integer name="config_screenRecorderMaxFramerate">90</integer>
 </resources>
