@@ -16,6 +16,7 @@ $(call inherit-product, vendor/syberia/common.mk)
 TARGET_BOOT_ANIMATION_RES := 1080
 TARGET_USES_FACE_UNLOCK := true
 TARGET_SUPPORTS_QUICK_TAP := true
+SYBERIA_BUILD_TYPE := OFFICIAL
 
 PRODUCT_NAME := syberia_sweet
 PRODUCT_DEVICE := sweet
